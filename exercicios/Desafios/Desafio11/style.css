@@ -1,0 +1,14 @@
+@charset "UFT-8";
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: .6em;
+    text-decoration: none;
+    
+}
+footer > a {
+    color: white;
+    font-weight: lighter;
+}
