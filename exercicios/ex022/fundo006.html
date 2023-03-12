@@ -8,15 +8,25 @@
         <style>
             body {
                 height: 100vh;
-                background-color: black;
+                /* background-color: black;
                 background-image: url(imagens/wallpaper002.jpg);
-                background-position: center top;
+                background-position: center center;
                 background-repeat: no-repeat;
+                background-size: cover;
+                background-attachment: fixed;
+
+                 Shorthand- background
+
+                color > image > position > repeat > 'size' > attachment 
+
+                Porém o size não funciona ainda corretamente no momento, mesmo que o W3C esteja mostrando que sim.
+                */
+                background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
                 background-size: cover;
             }
             main {
                 background-color: white;
-                width: 400px;
+                max-width: 400px;
                 padding: 10px;
                 margin: auto;
                 border: 1px solid darkgray;
@@ -27,7 +37,7 @@
 <body>
     <main>
         <h1> Teste de Imagem de Fundo</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque natus saepe commodi maiores dolorum aliquam quaerat vitae eveniet pariatur ab! Inventore, voluptas odit corporis ab at in. Corporis, explicabo error. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt dicta quasi iusto cum temporibus expedita, veniam recusandae sit perferendis. Sunt autem totam corporis quia quae necessitatibus, repudiandae minus exercitationem laudantium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis modi explicabo iste quasi dolores ipsum nobis doloribus nulla excepturi? Quaerat expedita unde reiciendis quasi nulla voluptatem cumque mollitia obcaecati laborum?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque natus saepe commodi maiores dolorum aliquam quaerat vitae eveniet pariatur ab! Inventore, voluptas odit corporis ab at in. Corporis, explicabo error. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt dicta quasi iusto cum temporibus expedita, veniam recusandae sit perferendis. Sunt autem totam corporis quia quae necessitatibus, repudiandae minus exercitationem laudantium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis modi explicabo iste quasi dolores ipsum nobis doloribus nulla excepturi? Quaerat expedita unde reiciendis quasi nulla voluptatem cumque mollitia obcaecati laborum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque natus saepe commodi maiores dolorum aliquam quaerat vitae eveniet pariatur ab! Inventore, voluptas odit corporis ab at in. Corporis, explicabo error. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt dicta quasi iusto cum temporibus expedita, veniam recusandae sit perferendis. Sunt autem totam corporis quia quae necessitatibus, repudiandae minus exercitationem laudantium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis modi explicabo iste quasi dolores ipsum nobis doloribus nulla excepturi? Quaerat expedita unde reiciendis quasi nulla voluptatem cumque mollitia obcaecati laborum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque natus saepe commodi maiores dolorum aliquam quaerat vitae eveniet pariatur ab! Inventore, voluptas odit corporis ab at in. Corporis, explicabo error. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt dicta quasi iusto cum temporibus expedita, veniam recusandae sit perferendis. Sunt autem totam corporis quia quae necessitatibus, repudiandae minus exercitationem laudantium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis modi explicabo iste quasi dolores ipsum nobis doloribus nulla excepturi? Quaerat expedita unde reiciendis quasi nulla voluptatem cumque mollitia obcaecati laborum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque natus saepe commodi maiores dolorum aliquam quaerat vitae eveniet pariatur ab! Inventore, voluptas odit corporis ab at in. Corporis, explicabo error. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt dicta quasi iusto cum temporibus expedita, veniam recusandae sit perferendis. Sunt autem totam corporis quia quae necessitatibus, repudiandae minus exercitationem laudantium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis modi explicabo iste quasi dolores ipsum nobis doloribus nulla excepturi? Quaerat expedita unde reiciendis quasi nulla voluptatem cumque mollitia obcaecati laborum?</p>
     </main>
 </body>
 </html>
