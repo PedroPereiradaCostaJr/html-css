@@ -4,11 +4,15 @@ footer {
     background-color: black;
     color: white;
     text-align: center;
-    font-size: .6em;
+    font-size: 19px;
     text-decoration: none;
-    
+    padding: 1px;
 }
-footer > a {
+footer p > a {
     color: white;
-    font-weight: lighter;
+    font-weight: bolder;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
 }
